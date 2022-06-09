@@ -1,0 +1,29 @@
+@api = http://localhost:5000/api/products
+@id = 626c05cbacaac9e4d0a4b641
+
+### get all documents
+{{api}}
+
+#### obtener cabeceras
+POST {{api}}
+Content-Type: application/json
+
+{
+    "url_target": "https://awm.megatechway.com/"
+}
+
+#### obtener tecnologias
+POST {{api}}/wapp
+Content-Type: application/json
+
+{
+    "url_target": "https://awm.megatechway.com/"
+}
+
+#### obtener dns
+POST {{api}}/dns
+Content-Type: application/json
+
+{
+    "url_target": "dnspython.org"
+}
