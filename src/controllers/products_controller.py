@@ -64,7 +64,7 @@ def wappalizer(body):
 
         resp["ok"] = True
         resp["msg"] = "Elemento creado"
-        resp["data"] = {"tecnologias": tecnologias}
+        resp["data"] = {"tecnologia": tecnologias}
 
         return jsonify(resp)
 
