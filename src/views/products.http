@@ -1,4 +1,4 @@
-@api = http://localhost:5000/api/products
+@api = https://menu-service-jf.herokuapp.com/api/products
 @id = 626c05cbacaac9e4d0a4b641
 
 ### get all documents
